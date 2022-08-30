@@ -1,0 +1,4 @@
+src/libhaystack.so
+src/main_dynamic
+src/main_noinput
+src/main_static

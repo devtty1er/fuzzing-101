@@ -1,0 +1,11 @@
+version: '3'
+services:
+  fuzzing-101-activity-3:
+    build: 
+      context: .
+    volumes:
+      - ./src:/src
+    working_dir: /src
+    command: make
+    environment:
+      - CC=afl-gcc
